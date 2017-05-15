@@ -3,22 +3,19 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Hexo环境下md文档基础语法 | huoyi的博客</title>
+  <title>关于swift和OC之间不得不知道的21点 | huoyi的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="本文主要是Hexo下MarkDown 编写的基础语法">
-<meta name="keywords" content="Hexo,Demo,Test">
+  <meta name="description" content="初入Swift的一些基础知识">
+<meta name="keywords" content="iOS,Swift">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hexo环境下md文档基础语法">
-<meta property="og:url" content="http://huoyi9266.win/2017/05/12/Hexo环境下md文档基础语法/index.html">
+<meta property="og:title" content="关于swift和OC之间不得不知道的21点">
+<meta property="og:url" content="http://huoyi9266.win/2017/05/15/Swift-相比较于Objective-C-的入门小常识/index.html">
 <meta property="og:site_name" content="huoyi的博客">
-<meta property="og:description" content="本文主要是Hexo下MarkDown 编写的基础语法">
-<meta property="og:image" content="http://optsyw23r.bkt.clouddn.com/image/BlogTset/jpg/Hexo/FirstPageTitle.png">
-<meta property="og:image" content="http://optsyw23r.bkt.clouddn.com/image/BlogTset/jpg/Hexo/SixLevelTitle.png">
-<meta property="og:updated_time" content="2017-05-12T09:05:26.000Z">
+<meta property="og:description" content="初入Swift的一些基础知识">
+<meta property="og:updated_time" content="2017-05-15T10:22:32.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo环境下md文档基础语法">
-<meta name="twitter:description" content="本文主要是Hexo下MarkDown 编写的基础语法">
-<meta name="twitter:image" content="http://optsyw23r.bkt.clouddn.com/image/BlogTset/jpg/Hexo/FirstPageTitle.png">
+<meta name="twitter:title" content="关于swift和OC之间不得不知道的21点">
+<meta name="twitter:description" content="初入Swift的一些基础知识">
   
     <link rel="alternative" href="/atom.xml" title="huoyi的博客" type="application/atom+xml">
   
@@ -191,11 +188,11 @@
         </header>                
     </div>
 </nav>
-      <div class="body-wrap"><article id="post-Hexo环境下md文档基础语法" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-Swift-相比较于Objective-C-的入门小常识" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2017/05/12/Hexo环境下md文档基础语法/" class="article-date">
-      <time datetime="2017-05-12T07:04:37.000Z" itemprop="datePublished">2017-05-12</time>
+      <a href="/2017/05/15/Swift-相比较于Objective-C-的入门小常识/" class="article-date">
+      <time datetime="2017-05-15T09:41:39.000Z" itemprop="datePublished">2017-05-15</time>
 </a>
     </div>
   
@@ -208,7 +205,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      Hexo环境下md文档基础语法
+      关于swift和OC之间不得不知道的21点
     </h1>
   
 
@@ -217,13 +214,13 @@
       <div class="article-info article-info-post">
         
     <div class="article-category tagcloud">
-    <a class="article-category-link" href="/categories/Hexo/">Hexo</a>
+    <a class="article-category-link" href="/categories/Swift/">Swift</a>
     </div>
 
 
         
     <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Demo/">Demo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Test/">Test</a></li></ul>
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Swift/">Swift</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/iOS/">iOS</a></li></ul>
     </div>
 
         <div class="clearfix"></div>
@@ -233,30 +230,58 @@
     <div class="article-entry" itemprop="articleBody">
       
           
-        <blockquote>
-<p>从这边开始就是正文内容了</p>
+        <h3 id="swfit和OC间的-联系"><a href="#swfit和OC间的-联系" class="headerlink" title="swfit和OC间的 联系"></a>swfit和OC间的 联系</h3><ol>
+<li><p>swift句尾不需要分号 ，除非你想在一行中写三行代码就加分号隔开。</p>
+</li>
+<li><p>swift不要写main函数 ，程序默认从上往下执行</p>
+</li>
+<li><p>swift不分<code>.h</code>和<code>.m</code>文件 ，一个类只有<code>.swift</code>一个文件 </p>
+</li>
+<li><p>swift不在有地址的概念</p>
+</li>
+<li><p>swift数据类型都会自动判断 ， 只区分变量 <code>var</code> 和常量 <code>let</code></p>
+</li>
+<li><p>swift对数据要求异常严格,不会做隐式转换</p>
+</li>
+<li><p>强制转换格式反过来了 OC强转：<code>(int)a</code>      Swift强转：<code>int(a)</code> </p>
+</li>
+<li><p>整数的数据类型可以通过 <code>.min</code>和<code>.max</code> 获得最大和最小值</p>
+</li>
+<li><p>定义类型的别名语法改变 OC：<code>typedef int MyInt</code>      Swift：<code>typealias MyInt = int</code></p>
+</li>
+<li><p>swift的模除取余运算符支持小数了 。  如 <code>5 % 1.5 = 0.5</code></p>
+</li>
+<li><p>关于BOOL类型更加严格 ，Swift不再是OC的非0就是真，而是<code>true</code>才是真  <code>false</code>才是假</p>
+</li>
+<li><p>与第10点相联系的就是， <code>swift的赋值运算符没有返回值</code> 。防止误用<code>“＝”</code>和<code>“＝＝”</code></p>
+</li>
+<li><p>swift可以多对多赋值 。 <code>let(x,y) = (1,2)</code></p>
+</li>
+<li><p>swift的 循环语句中必须加{} 就算只有一行代码也必须要加</p>
+</li>
+<li><p>swift的switch语句后面以前只能跟整数， 现在可以跟各种数据类型了 ，如浮点字符串都行，<br>并且里面不用写<code>break</code>，如果不想要没break的效果 即后面的都想执行 那就写上关键字  <code>fallthrough</code><br>（注意：在fallthrough后面就不能再定义常量变量了）</p>
+</li>
+</ol>
+<h3 id="swift独有-的性质"><a href="#swift独有-的性质" class="headerlink" title="swift独有 的性质"></a>swift独有 的性质</h3><h4 id="swift独有的范围运算符"><a href="#swift独有的范围运算符" class="headerlink" title="swift独有的范围运算符"></a>swift独有的范围运算符</h4><blockquote>
+<p><code>a...b</code> 表示 [a,b]  如3…5  就是范围取3，4，5</p>
+<p><code>a..&lt;b</code> 表示 [a,b)  如3，5 就是取范围3，4</p>
+<p>可以直接写在 for-in 循环中，或者if判断中 如  <code>for x in 0...5 {}</code></p>
 </blockquote>
-<h3 id="Hexo首页文章标题的代码"><a href="#Hexo首页文章标题的代码" class="headerlink" title="Hexo首页文章标题的代码"></a>Hexo首页文章标题的代码</h3><p><img src="http://optsyw23r.bkt.clouddn.com/image/BlogTset/jpg/Hexo/FirstPageTitle.png" alt="alt text"></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">---</div><div class="line">title: Hexo大部分格式Demo</div><div class="line">date: 2017-05-12 11:53:06</div><div class="line">tags: [Demo,标签]</div><div class="line">description: 文章测试描述文本</div><div class="line">categories: 文章分类</div><div class="line">toc: true # 生成目录</div><div class="line">author: 作者xxx</div><div class="line">reward: true #打赏属性 </div><div class="line"></div><div class="line">---</div></pre></td></tr></table></figure>
-<h3 id="等级标题的代码和样式"><a href="#等级标题的代码和样式" class="headerlink" title="等级标题的代码和样式"></a>等级标题的代码和样式</h3><p><img src="http://optsyw23r.bkt.clouddn.com/image/BlogTset/jpg/Hexo/SixLevelTitle.png" alt="alt text"></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"># 1级标题</div><div class="line">## 2级标题</div><div class="line">### 3级标题</div><div class="line">#### 4级标题</div><div class="line">##### 5级标题</div><div class="line">###### 6级标题</div></pre></td></tr></table></figure>
-<h3 id="图片使用方式"><a href="#图片使用方式" class="headerlink" title="图片使用方式"></a>图片使用方式</h3><p>内联方式：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">![alt text](/path/to/img.jpg &quot;Title&quot;)</div></pre></td></tr></table></figure></p>
-<p>引用方式</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">![alt text][id] </div><div class="line">[id]: /path/to/img.jpg &quot;Title&quot;</div></pre></td></tr></table></figure>
-<p><strong>Hexo 加载本地图片</strong> 是文件下的路径<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">[id]: /source/pic/HexoDemo/SixLevelTitle.png</div></pre></td></tr></table></figure></p>
-<h3 id="超链接使用方式"><a href="#超链接使用方式" class="headerlink" title="超链接使用方式"></a>超链接使用方式</h3><p>内联方式：This is an <a href="https://www.baidu.com" target="_blank" rel="external">example link</a>.<br>引用方式：<br>I get 10 times more traffic from <a href="http://google.com/" title="Google" target="_blank" rel="external">Google</a> than from <a href="http://search.yahoo.com/" title="Yahoo Search" target="_blank" rel="external">Yahoo</a> or <a href="http://search.msn.com/" title="MSN Search" target="_blank" rel="external">MSN</a>.  </p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">内联方式：This is an [example link](https://www.baidu.com).</div><div class="line">引用方式：</div><div class="line">I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].  </div><div class="line"></div><div class="line">[1]: http://google.com/        &quot;Google&quot; </div><div class="line">[2]: http://search.yahoo.com/  &quot;Yahoo Search&quot; </div><div class="line">[3]: http://search.msn.com/    &quot;MSN Search&quot;</div></pre></td></tr></table></figure>
-<p>框框在这里啊</p>
-<h3 id="代码框使用方式"><a href="#代码框使用方式" class="headerlink" title="代码框使用方式"></a>代码框使用方式</h3><blockquote>
-<p>使用<code>&lt;blockquote&gt;</code>。（<code>不是单引号而是左上角的ESC下面~中的</code>）<br>使用Tab或四个空格</p>
+<h4 id="swift独有的溢出运算符"><a href="#swift独有的溢出运算符" class="headerlink" title="swift独有的溢出运算符"></a>swift独有的溢出运算符</h4><blockquote>
+<p>默认情况下，当你往一个整型常量或变量赋于一个它不能承载的大数时，Swift不会让你这么干的，它会报错。这样，在操作过大或过小的数的时候就很安全了。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">var potentialOverflow = Int16.max</div><div class="line"></div><div class="line">// potentialOverflow 等于 32767, 这是 Int16 能承载的最大整数</div><div class="line"></div><div class="line">potentialOverflow += 1</div><div class="line"></div><div class="line">//  出错了</div></pre></td></tr></table></figure></p>
 </blockquote>
-<h3 id="一些其他样式（黑体、斜体等）"><a href="#一些其他样式（黑体、斜体等）" class="headerlink" title="一些其他样式（黑体、斜体等）"></a>一些其他样式（黑体、斜体等）</h3><p><code>There is a literal backtick (`) here.</code><br><code>有些东西也可以写在这里 比较明显的说</code><br>Use the <code>printf()</code> function.<br><em>斜体</em> <em>我是斜体</em><br><strong>粗体</strong> <strong>我是粗体</strong></p>
-<hr>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">``There is a literal backtick (`) here.``</div><div class="line">``有些东西也可以写在这里 比较明显的说``</div><div class="line">Use the `printf()` function.</div><div class="line">*斜体* _我是斜体_</div><div class="line">**粗体** __我是粗体__</div></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">下面是下划线 我是2级标题</div><div class="line">---</div></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">---</div></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">上面是下划线 我是1级标题</div><div class="line">===</div></pre></td></tr></table></figure>
-<h3 id="反斜杠"><a href="#反斜杠" class="headerlink" title="反斜杠"></a>反斜杠</h3><p>反斜杠是 \<br>样例： *literal asterisks*<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line">\   反斜线</div><div class="line">`   反引号</div><div class="line">*   星号</div><div class="line">_   底线</div><div class="line">&#123;&#125;  花括号</div><div class="line">[]  方括号</div><div class="line">()  括弧</div><div class="line">#   井字号</div><div class="line">+   加号</div><div class="line">-   减号</div><div class="line">.   英文句点</div><div class="line">!   惊叹号</div></pre></td></tr></table></figure></p>
+<p>当然，你有意在溢出时对有效位进行截断，你可采用溢出运算，而非错误处理。Swfit为整型计算提供了5个&amp;符号开头的溢出运算符。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&amp;+,&amp;-,&amp;*,&amp;/,&amp;%</div></pre></td></tr></table></figure></p>
+<p>这里用上溢出做个举例<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">var willOverflow = UInt8.max</div><div class="line"></div><div class="line">// willOverflow 等于UInt8的最大整数 255</div><div class="line"></div><div class="line">willOverflow = willOverflow &amp;+ 1</div><div class="line"></div><div class="line">// 这时候 willOverflow 等于 0</div></pre></td></tr></table></figure></p>
+<h4 id="swift独有的元组类型"><a href="#swift独有的元组类型" class="headerlink" title="swift独有的元组类型"></a>swift独有的元组类型</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">var point = (x:15,y:20.2)</div></pre></td></tr></table></figure>
+<p>就是元组名是 point ，里面有两个元素x和y。  有点类似于结构体但是不是</p>
+<p>想取出里面的x的值赋值就是  point.x ＝ 30  或者point.0 = 30 （注：元组里面的许多元素可以看作有数组的下标）</p>
+<p>可以省略内部元素的名称  var point ＝ (15,20.2)  但是这样的话，想取出值就只能用point.0 ＝ 30 这一种方法了，因为人家没有元素名了好吧。</p>
+<p>也可以明确指定元组内每一个元素的类型，假如那个20.2我不想要double类型 我想要是float类型。可以<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">var point = (Int,String) = (15,20.2)</div></pre></td></tr></table></figure></p>
+<p>注意：元组名称和类型不能共存 ，比如你指定类型了 后面就不可以再指定名称了  </p>
+<p>Error !!!<br>var point = (Int,String) = (x:15,y:20.2)</p>
+<p>如果你想打印的话就写<code>println(point)</code>  打印出来就是<code>(10,20.2)</code></p>
+<p>并且在初始化的时候也可以用下划线省略不需要的元素 如 <code>var point ＝ (_ ,20.2);</code></p>
+<h4 id="swift中有一大特色-就是optional可选项"><a href="#swift中有一大特色-就是optional可选项" class="headerlink" title="swift中有一大特色,就是optional可选项"></a>swift中有一大特色,就是optional可选项</h4><p><a href="http://www.2cto.com/kf/201610/552637.html" target="_blank" rel="external">http://www.2cto.com/kf/201610/552637.html</a><br><a href="http://www.jianshu.com/p/5fe44ccff5ba" target="_blank" rel="external">http://www.jianshu.com/p/5fe44ccff5ba</a><br><a href="http://www.cnblogs.com/xu-antong/p/6483731.html" target="_blank" rel="external">http://www.cnblogs.com/xu-antong/p/6483731.html</a></p>
 
       
       
@@ -311,13 +336,13 @@
   
     
     <div class="copyright">
-        <p><span>本文标题:</span><a href="/2017/05/12/Hexo环境下md文档基础语法/">Hexo环境下md文档基础语法</a></p>
+        <p><span>本文标题:</span><a href="/2017/05/15/Swift-相比较于Objective-C-的入门小常识/">关于swift和OC之间不得不知道的21点</a></p>
         <p><span>文章作者:</span><a href="/" title="访问 Huoyi Lin 的个人博客">Huoyi Lin</a></p>
-        <p><span>发布时间:</span>2017年05月12日 - 15时04分</p>
-        <p><span>最后更新:</span>2017年05月12日 - 17时05分</p>
+        <p><span>发布时间:</span>2017年05月15日 - 17时41分</p>
+        <p><span>最后更新:</span>2017年05月15日 - 18时22分</p>
         <p>
-            <span>原始链接:</span><a class="post-url" href="/2017/05/12/Hexo环境下md文档基础语法/" title="Hexo环境下md文档基础语法">http://huoyi9266.win/2017/05/12/Hexo环境下md文档基础语法/</a>
-            <span class="copy-path" data-clipboard-text="原文: http://huoyi9266.win/2017/05/12/Hexo环境下md文档基础语法/　　作者: Huoyi Lin" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
+            <span>原始链接:</span><a class="post-url" href="/2017/05/15/Swift-相比较于Objective-C-的入门小常识/" title="关于swift和OC之间不得不知道的21点">http://huoyi9266.win/2017/05/15/Swift-相比较于Objective-C-的入门小常识/</a>
+            <span class="copy-path" data-clipboard-text="原文: http://huoyi9266.win/2017/05/15/Swift-相比较于Objective-C-的入门小常识/　　作者: Huoyi Lin" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
             <script src="/js/clipboard.min.js"></script>
             <script> var clipboard = new Clipboard('.copy-path'); </script>
         </p>
@@ -330,15 +355,11 @@
 
 <nav id="article-nav">
   
-    <a href="/2017/05/15/Swift-2-0-到-3-0-的变更等/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption"><</strong>
-      <div class="article-nav-title">
-        
-          Swift 2.0 到 3.0 的变更等
-        
-      </div>
-    </a>
   
+    <a href="/2017/05/15/Swift-2-0-到-3-0-的变更等/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Swift 2.0 到 3.0 的变更等</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
   
 </nav>
 
@@ -347,7 +368,7 @@
 
     <div id="toc" class="toc-article">
     <strong class="toc-title">文章目录</strong>
-    <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#Hexo首页文章标题的代码"><span class="toc-number">1.</span> <span class="toc-text">Hexo首页文章标题的代码</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#等级标题的代码和样式"><span class="toc-number">2.</span> <span class="toc-text">等级标题的代码和样式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#图片使用方式"><span class="toc-number">3.</span> <span class="toc-text">图片使用方式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#超链接使用方式"><span class="toc-number">4.</span> <span class="toc-text">超链接使用方式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#代码框使用方式"><span class="toc-number">5.</span> <span class="toc-text">代码框使用方式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#一些其他样式（黑体、斜体等）"><span class="toc-number">6.</span> <span class="toc-text">一些其他样式（黑体、斜体等）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#反斜杠"><span class="toc-number">7.</span> <span class="toc-text">反斜杠</span></a></li></ol>
+    <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#swfit和OC间的-联系"><span class="toc-number">1.</span> <span class="toc-text">swfit和OC间的 联系</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#swift独有-的性质"><span class="toc-number">2.</span> <span class="toc-text">swift独有 的性质</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#swift独有的范围运算符"><span class="toc-number">2.1.</span> <span class="toc-text">swift独有的范围运算符</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#swift独有的溢出运算符"><span class="toc-number">2.2.</span> <span class="toc-text">swift独有的溢出运算符</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#swift独有的元组类型"><span class="toc-number">2.3.</span> <span class="toc-text">swift独有的元组类型</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#swift中有一大特色-就是optional可选项"><span class="toc-number">2.4.</span> <span class="toc-text">swift中有一大特色,就是optional可选项</span></a></li></ol></li></ol>
 </div>
 <input type="button" id="tocButton" value="隐藏目录"  title="点击按钮隐藏或者显示文章目录">
 
@@ -395,7 +416,7 @@
     
       <div class="duoshuo" id="comments">
     <!-- 多说评论框 start -->
-    <div class="ds-thread" data-thread-key="2017/05/12/Hexo环境下md文档基础语法/" data-title="Hexo环境下md文档基础语法" data-url="http://huoyi9266.win/2017/05/12/Hexo环境下md文档基础语法/"></div>
+    <div class="ds-thread" data-thread-key="2017/05/15/Swift-相比较于Objective-C-的入门小常识/" data-title="关于swift和OC之间不得不知道的21点" data-url="http://huoyi9266.win/2017/05/15/Swift-相比较于Objective-C-的入门小常识/"></div>
     <!-- 多说评论框 end -->
     <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
     <script type="text/javascript">
@@ -418,13 +439,13 @@
 
     <div class="scroll" id="post-nav-button">
         
-            <a href="/2017/05/15/Swift-2-0-到-3-0-的变更等/" title="上一篇: Swift 2.0 到 3.0 的变更等">
-                <i class="fa fa-angle-left"></i>
-            </a>
+            <a href="/" title="回到主页"><i class="fa fa-home"></i></a>
         
         <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
         
-            <a href="/" title="回到主页"><i class="fa fa-home"></i></a>
+            <a href="/2017/05/15/Swift-2-0-到-3-0-的变更等/" title="下一篇: Swift 2.0 到 3.0 的变更等">
+                <i class="fa fa-angle-right"></i>
+            </a>
         
     </div>
     <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2017/05/15/Swift-相比较于Objective-C-的入门小常识/">关于swift和OC之间不得不知道的21点</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/05/15/Swift-2-0-到-3-0-的变更等/">Swift 2.0 到 3.0 的变更等</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/05/12/Hexo环境下md文档基础语法/">Hexo环境下md文档基础语法</a></li></ul>
